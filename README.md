@@ -36,6 +36,16 @@ Compatible exclusively with uBlock Origin and AdGuard browser extensions. These 
 * **Critical Infrastructure:** Exercise caution with OEM-specific rules. For example, blocking OnePlus or OPPO root domains will break OTA system updates.
 * **Dependencies:** Some platforms, such as Roblox, use telemetry domains for required game asset loading; ensure your specific use case allows for these before applying aggressive filters.
 
+## Recommended Resources
+*The following projects represent the gold standard for curated blocklists. I recommend these if you are looking to expand your coverage beyond this repository:*
+
+* **[HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists):** Exceptional, multi-tiered protection ranging from light to aggressive. Highly recommended for all-around privacy.
+* **[StevenBlack Hosts](https://github.com/StevenBlack/hosts):** A long-standing, reliable foundation for ad and tracker blocking.
+* **[yokoffing/filterlists](https://github.com/yokoffing/filterlists):** A fantastic collection of specialized filters for fine-tuning your privacy experience.
+
+### ⚠️ Important Note on Performance
+**More is not always better.** Stacking too many massive, unvetted lists increases DNS latency and raises the risk of false positives that can break legitimate app functionality or hardware services. Always test your connection after adding new filters.
+
 ## License
 This project is released under the MIT License.
 
