@@ -36,7 +36,14 @@ Compatible exclusively with uBlock Origin and AdGuard browser extensions. These 
 * **Critical Infrastructure:** Exercise caution with OEM-specific rules. For example, blocking OnePlus or OPPO root domains will break OTA system updates.
 * **Dependencies:** Some platforms, such as Roblox, use telemetry domains for required game asset loading; ensure your specific use case allows for these before applying aggressive filters.
 
+## Installation
+
+To use this list in AdGuard Home, NextDNS, Control D, or RethinkDNS, add the following URL as a DNS blocklist:
+
+[https://raw.githubusercontent.com/ChopsGarbageCollection/chops-mobile-blocklist/main/chops-mobile-blocklist.txt](https://raw.githubusercontent.com/ChopsGarbageCollection/chops-mobile-blocklist/main/chops-mobile-blocklist.txt)
+
 ## Recommended Resources
+
 *The following projects represent the gold standard for curated blocklists. I recommend these if you are looking to expand your coverage beyond this repository:*
 
 * **[HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists):** Exceptional, multi-tiered protection ranging from light to aggressive. Highly recommended for all-around privacy.
