@@ -1,6 +1,8 @@
 # ==============================================================================
 # MASTER MOBILE TELEMETRY & APP HARDENING BLOCKLIST
 # Maintained by: Chops
+# Version: 1.1.0
+# Last Updated: 2026-05-30
 # Syntax: AdGuard / uBlock Universal Standard
 # Primary Focus: Mobile Application Telemetry & Hardening
 # Supported Platforms: 
