@@ -374,10 +374,12 @@
 # # ||api.blinkforhome.com^
 
 # AMAZON ALEXA
-||device-metrics-us.amazon.com^
-||unagi.amazon.com^
-||unagi-na.amazon.com^
-||msh.amazon.com^
+# Disabled - Amazon routes Blink/Alexa core connectivity through these endpoints
+# Blocking causes Blink Sync Module cloud session failures (confirmed June 2026)
+# # ||device-metrics-us.amazon.com^
+# # ||unagi.amazon.com^
+# # ||unagi-na.amazon.com^
+# # ||msh.amazon.com^
 # # ||alexa.amazon.com^
 # # ||api.amazonalexa.com^
 
