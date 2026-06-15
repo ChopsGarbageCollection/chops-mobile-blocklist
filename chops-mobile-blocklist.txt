@@ -367,8 +367,9 @@
 # # ||api.cyncsmart.com^
 
 # BLINK
-||telemetry.blinkforhome.com^
-||metrics.blinkforhome.com^
+# Disabled - Blink moved core connectivity to these endpoints (June 2026)
+# # ||telemetry.blinkforhome.com^
+# # ||metrics.blinkforhome.com^
 # # ||rest.prod.immedia-semi.com^
 # # ||api.blinkforhome.com^
 
